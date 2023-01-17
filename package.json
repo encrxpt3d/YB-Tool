@@ -1,15 +1,16 @@
 {
   "name": "yb-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "Does stuff.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --progress --watch"
+    "watch": "webpack --progress --watch",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LightstrapRBX/discord-token-generator.git"
+    "url": "git+https://github.com/LightstrapRBX/YB-Tool.git"
   },
   "keywords": [
     "nodejs",
@@ -19,29 +20,29 @@
   "author": "LightstrapRBX",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LightstrapRBX/discord-token-generator/issues"
+    "url": "https://github.com/LightstrapRBX/YB-Tool/issues"
   },
   "devDependencies": {
-    "babel-core": "^6.24.1",
+    "babel-core": "^4.7.16",
     "babel-eslint": "^7.2.2",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.1",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^14.1.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.1",
     "extract-text-webpack-plugin": "^2.1.0",
-    "webpack": "^2.5.1"
+    "webpack": "^5.75.0"
   },
-  "homepage": "https://github.com/LightstrapRBX/discord-token-generator#readme",
+  "homepage": "https://github.com/LightstrapRBX/YB-Tool#readme",
   "dependencies": {
     "btoa": "^1.1.2",
     "express": "^4.15.2",
     "node-fetch": "^2.6.1",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
